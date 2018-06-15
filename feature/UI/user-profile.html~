@@ -1,0 +1,30 @@
+<html>
+<head>
+
+</head>
+<body>
+<div class="Mynotification">
+
+    <div>
+    <center> <h4>CREATE RIDE OFFER</h4> </center>
+    <form>
+        <label>Date & Time:</label>
+        <input type="date" name="time"><input type="time" name="usr_time"><br><br>
+        
+        <label>Source:</label>
+        <input type="text" placeholder="Source Name"/><br><br>
+        <label>Destination:</label>
+        <input type="text" placeholder="Destination Name"/><br><br>
+        <label>Fare of Ride (UGX):</label>
+        <input type="text" placeholder="10000.00"/><br><br>
+        <label>Ride</label>
+        <input type="file" id="myFile">
+        <input type="submit" value="Create"/>
+    </form>
+
+</div>
+    
+
+
+</body>
+</html>

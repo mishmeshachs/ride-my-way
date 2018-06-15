@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(car1.jpg);
+    background-size: cover;
+    background-position: fixed center;
+    background-repeat: no-repeat
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #3E7CF1;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10%;
+    
+   
+}
+
+.userpic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+.signup
+{width: 500px;
+    height: auto;
+    margin-left: 35%;
+    margin-top: 5%;
+    background:url(bg1.jpg);
+}
+
+#form-head{
+
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 20%;
+}
+
+h3,h2{
+    color: blue;;
+    float: right;
+}
+h4{
+    color: black;
+}
+form{
+    margin-top: 15px;
+}
+
+#logo{
+    height: 120px;}
+    
+.signup input[type=text],input[type=email]{
+    width: 70%;
+    height: auto;
+    padding: 10px 10px;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+
+input[type=submit]{
+    height: 50%;
+    width: 30%;
+    padding: 10px 15px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+    border-radius: 45px;
+    background-color: blue;
+    color: white;
+}
+label{
+    padding: 10% 10%;
+    margin-bottom: 5px;
+}
+
+.create-ride{
+    width: 40%;
+    height: auto;
+    border: solid thin lightgreen;
+    margin-left: 35%;
+    margin-top: 2%;
+    background-color: white;
+}
+
+h4{
+    color: green;
+}
+
+table{
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 10%;
+    border-collapse: collapse;
+    background-color: white;
+    background: url(bg1.jpg) 
+}
+
+th{
+    background-color: lightgrey;
+    color: darkgreen;
+}
+table, td, th {
+    /*border: 1px solid #ddd;*/
+    text-align: left;
+}
+th, td {
+    padding: 15px;
+}
+
+.main_logo{
+
+    display: inline-block;
+    margin-left: 10%;
+    float: left;
+}
+.menu .menu-list{
+    float: left;
+    background-color: inherit;
+    width: inherit;
+    height: 10%;
+}
+
+#menu-logo{
+     height: 50px;
+}
+
+.menu{
+    background-color: #4169e1;
+}
+
+.menu ul{
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    color: darkgrey;
+ }
+    
+ .buttons{
+    margin-left: 40%;
+
+}
+
+.content-home{
+    width: 85%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.content-home div{
+    display: inline-block;
+}
+.rides{
+    background-color: white;
+    height: auto;
+    width: 40%;
+    margin-left: 5%;
+}
+.rides th{
+     background-color: grey;
+    color: white;
+    font-size: smaller;
+}
+.rides table{
+    margin-left: 7%;
+}
+.rides table, td, th{
+    border: 1px solid #ddd; }
+  .Mynotification {
+    width: 30%;
+    height: 420px;
+    background: #3E7CF1;
+    color: #fff;
+    top: 50%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 10%;
+    float:right;  
+  }  
+    

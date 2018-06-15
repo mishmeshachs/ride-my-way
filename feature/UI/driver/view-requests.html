@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ride My Way - Driver - Home</title>
+
+		<style>
+
+			/*
+			  General styles
+			*/
+
+			body {
+				background: #eee;
+				padding: 0;
+				margin: 0;
+			}
+
+			.main {
+				width:75%;
+				margin: 0px auto;
+				border: 1px solid #ddd;
+				min-height: 500px;
+				border-radius: 2px;
+				background: #00c5cd;
+			}
+
+			.clear {				
+				clear: both;
+			}
+
+			/*
+			  Styles for the sidebar
+			*/
+
+			.sidebar {
+				float: left;
+				width: 20%;
+				min-height: 200px;
+				padding: 15px;
+				color: brown;
+			}
+
+			span.sub-title {
+				font-size: 20px;
+				font-weight: bold;
+				color: #999;
+			}
+
+			ul {
+
+				padding: 10px;
+				margin: 0;
+			}
+
+			ul.menu {
+				list-style: square outside none;
+				border-bottom: 1px solid #ddd;
+			}
+
+			a {				
+				text-decoration: none;
+				color: #555;
+				display: block;
+				margin-bottom: 10px;
+			}
+
+			ul.menu a {
+				text-transform: uppercase;
+				font-size: 13px;
+				font-weight: bold;
+			}
+
+			ul.menu a:hover {
+				color: blue;
+			}
+
+			/*
+			  Styles for the right side content
+			*/
+
+			.rightside-content {
+				float: right;
+				padding: 15px;
+				width: 72%;
+				border-left: 1px solid #ddd;
+			}
+
+			h3 {
+				padding-bottom: 15px;
+				border-bottom: 1px solid #ddd;
+			}
+
+			h3.heading {
+				text-transform: uppercase;
+				font-size: 30px;
+				font-weight: bold;
+			}
+
+			input {
+				display: block;
+				width: 95%;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+
+			select {
+				width: 100%;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+
+			button {
+				padding: 4px 8px;
+				color: white;
+				border: none;
+				font-size: 12px;
+				cursor: pointer;
+				font-weight: bold;
+				border-radius: 2px;
+			}
+
+			button.accept {
+				background: green;
+			}
+
+			button.decline {
+				background: red;
+			}
+
+			table, td, th {    
+			    border: 1px solid #ddd;
+			    text-align: left;
+			}
+
+			table {
+			    border-collapse: collapse;
+			    width: 100%;
+			}
+
+			th, td {
+			    padding: 15px;
+			}
+		</style>
+
+		<script type="text/javascript">
+			function acceptRequest() {
+				alert('Request has been accepted')
+			}
+		</script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="sidebar">
+				<span class="sub-title">Menu</span>
+				<ul class="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="add-ride-offers.html">Add Ride Offers</a></li>
+					<li><a href="view-requests.html">View Requests</a></li>
+				</ul>
+
+				<ul class="sub-menu">
+					<li><a href="../login.html">Logout</a></li>
+				</ul>
+
+			</div>
+			<div class="rightside-content">
+				<h3 class="heading">Requests from passengers</h3>
+
+				<table>
+				  <tr>
+				  	<th>Ride Offer</th>
+				    <th>Passenger</th>
+				    <th>Location</th>
+				    <th>Destination</th>
+				    <th>Sent at</th>
+				    <th>Action</th>
+				  </tr>
+				  <tr>
+				  	<td>City Tour</td>
+				    <td>hope</td>
+				    <td>nateete</td>
+				    <td>clock tower</td>
+				    <td>10:00 AM</td>
+				    <td>
+				    	<button onclick="acceptRequest()" class="accept">Accept</button>
+				    	<button onclick="return confirm('Are you sure you want to decline request?')" class="decline">Decline</button>
+				    </td>
+				  </tr>
+				  <tr>
+				  	<td>Upcountry ride</td>
+				    <td>kleith</td>
+				    <td>kampala</td>
+				    <td>soroti</td>
+				    <td>08:00AM</td>
+				    <td>
+				    	<button onclick="acceptRequest()" class="accept">Accept</button>
+				    	<button onclick="return confirm('Are you sure you want to decline request?')" class="decline">Decline</button>
+				    </td>
+				  </tr>
+				  <tr>
+				  	<td>City Tour</td>
+				    <td>katamba</td>
+				    <td>mbuya</td>
+				    <td>wandegeya</td>
+				    <td>11:12 AM</td>
+				    <td>
+				    	<button onclick="acceptRequest()" class="accept">Accept</button>
+				    	<button onclick="return confirm('Are you sure you want to decline request?')" class="decline">Decline</button>
+				    </td>
+				  </tr>
+				  <tr>
+				  	<td>City Tour</td>
+				    <td>johnson</td>
+				    <td>Nakawa</td>
+				    <td>Bukoto</td>
+				    <td>11:20 AM</td>
+				    <td>
+				    	<button onclick="acceptRequest()" class="accept">Accept</button>
+				    	<button onclick="return confirm('Are you sure you want to decline request?')" class="decline">Decline</button>
+				    </td>
+				  </tr>
+				</table>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</body>
+</html> 

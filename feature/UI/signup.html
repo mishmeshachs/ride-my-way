@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ride My Way - Sign up</title>
+
+		<style>
+		body{background:url(images/bg2.jpg) no-repeat; }
+			
+
+			.signup-main {
+				width:25%;
+				margin: 100px auto;
+				border: 1px solid #ddd;
+				min-height: 100px;
+				padding: 20px;
+				border-radius: 2px;
+				background:url(images/bg2.jpg) no-repeat;
+			}
+
+			h3 {
+				padding-bottom: 15px;
+				border-bottom: 1px solid #ddd;
+			}
+
+			input {
+				display: block;
+				width: 95%;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+
+			select {
+				width: 100%;
+				padding: 10px;
+				margin-bottom: 20px;
+			}
+
+			button {
+				padding: 10px 30px;
+				background: blue;
+				color: white;
+				border: none;
+				font-size: 15px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="menu">
+    <div class="main_logo">
+        <img src="images/logo.png" id="menu-logo">
+		<div class="loginbox">
+		<div class="signup-main">
+			<h3><center>Please fill the form to create an account</center></h3>
+
+			<form action="" method="post">
+				<input type="text" name="name" required placeholder="Name">
+
+				<input type="email" name="email" required placeholder="Email">
+
+				<select name="usertype" required>
+					<option value="" selected>Signup as..</option>
+					<option>Driver</option>
+					<option>Passenger</option>
+				</select>
+
+				<input type="text" name="username" required placeholder="Username">
+
+				<input type="password" name="password" required placeholder="Password">
+
+				<button type="submit" name="register">Register</button>
+
+				<span>Already registered? <a href="login.html">Login</a></span>
+			</form>
+		</div>
+	</body>
+</html> 

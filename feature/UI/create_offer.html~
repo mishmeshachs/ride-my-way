@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    
+     <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="menu">
+    <div class="main_logo">
+        <img src="logo.png" id="menu-logo">
+        
+    </div>
+<div class="menu-list">
+    <ul>
+        <li>HOME</li>
+        <li>RIDE</li>
+        <li>DRIVE</li>
+        <li>ABOUT US</li>
+    </ul>
+
+</div>
+    <div class="clear"></div>
+</div>
+<div class="content">
+
+<div class="create-ride signup">
+    <center> <h4>CREATE RIDE OFFER</h4> </center>
+    <form>
+        <label>Date & Time:</label>
+        <input type="date" name="time"><input type="time" name="usr_time"><br><br><br><br>
+        <label>Time:</label>
+        
+        <label>Source:</label>
+        <input type="text" placeholder="Source Name"/><br><br>
+        <label>Destination:</label>
+        <input type="text" placeholder="Destination Name"/><br><br>
+        <label>Fare of Ride (UGX):</label>
+        <input type="text" placeholder="10000.00"/><br><br>
+        <label>Ride</label>
+        <input type="file" id="myFile">
+        <input type="submit" value="Create"/>
+    </form>
+
+</div>
+
+</div>
+</body>
+<script>
+function myFunction() {
+    var x = document.getElementById("myFile");
+    x.disabled = true;
+}
+</script>
+</html>

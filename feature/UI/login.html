@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Ride My Way - Login </title>
+		
+<link rel="stylesheet" type="text/css" href="style.css" >
+		<div class="loginbody">
+		
+
+		<script type="text/javascript">
+			function driverLogin () {
+				window.location = 'driver/index.html';
+
+				return false
+			}
+
+			function passengerLogin () {
+				window.location = 'passenger/index.html';
+
+				return false
+			}
+		</script>
+	</head>
+	<body>
+	<div class="menu">
+    <div class="main_logo">
+        <img src="images/logo.png" id="menu-logo">
+		<div class="loginbox">
+			
+	<h2> Login in Here</h2>
+			<form action="" method="post">
+				<input type="text" name="username" required placeholder="Username">
+				<input type="password" name="password" required placeholder="Password">
+
+				<button type="button"  name="login" onclick="driverLogin()">Login as driver</button><br><br>
+				<button type="button" name="login" onclick="passengerLogin()">Login as passenger</button>
+
+				<div class="bottom-line"></div>
+
+				<span>Don't have an account yet? <a href="signup.html">Signup</a></span>
+			</form>
+		</div>
+		<style type="text/css">
+body{background:url(images/bg1.jpg) ; }
+</style>
+	</body>
+</html> 
