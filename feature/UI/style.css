@@ -51,9 +51,9 @@
 
 .loginbox{
     width: 30%;
-    height: 60%;
-    background: #3E7CF1;
-    color: #fff;
+    height: 70%;
+    background: rgba(41, 110, 238, 0.753);
+    color: rgba(8, 3, 73, 0.897);
     top: 50%;
     left: 50%;
     position: absolute;
@@ -86,7 +86,7 @@
 
 			ul.menu {
 				list-style: square outside none;
-				border-bottom: 1px solid #ddd;
+				border-bottom: 1px solid rgb(85, 56, 56);
 			}
 
 			a {				
