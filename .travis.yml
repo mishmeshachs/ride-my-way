@@ -1,0 +1,17 @@
+language: python
+
+python: '3.6'
+
+addons:
+  jwt:
+     secure: 'cbbfvfjjfjjjfsjajjkkvsjh4636787531r9898298981'
+
+# Install dependencies
+install: 
+    - pip install -r requirements.txt
+    - pip install coveralls
+
+# Run tests
+script: nosetests --with-coverage
+
+after_success: coveralls
