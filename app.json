@@ -1,0 +1,36 @@
+{
+  "name": "Ride My Way",
+  "description": "Carpooling Application Bringing riders and Clients together.",
+  "keywords": [
+    "html/css",
+    "python restful APIs",
+  ],
+  "website": "https://mishmeshachs.github.io/ride-my-way/feature/UI/login.html",
+  "repository": "https://github.com/mishmeshachs/ride-my-way",
+  "scripts": {
+    script: nosetests --with-coverage
+  },
+  "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    
+  "addons": [
+    jwt:
+     secure: 'cbbfvfjjfjjjfsjajjkkvsjh4636787531r9898298981'
+    },
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://meshach-ride-my-way.herokuapp.com/"
+    }
+  ],
+  
+}
